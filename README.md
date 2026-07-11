@@ -7,6 +7,8 @@ or run commands — all from one bar.
 Built in native Rust (no Electron, no web runtime), so it stays tiny and instant:
 ~2–4 MB idle RAM, 0% idle CPU, a ~1.5 MB binary, and results in well under a frame.
 
+### 🌐 Website & demo video → **[ordo-website-three.vercel.app](https://ordo-website-three.vercel.app)**
+
 ## Download
 
 **[⬇ Download the latest version](https://github.com/AayushSharat/Ordo/releases/latest)**
