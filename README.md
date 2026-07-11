@@ -22,7 +22,8 @@ Built in native Rust (no Electron, no web runtime), so it stays tiny and instant
 ## Features
 
 - **App launch** — fuzzy-search everything in your Start Menu, including Store apps.
-- **File search** — instant, Everything-style filename search across your folders.
+- **File search** — instant, Everything-style filename search. Indexes Desktop, Documents,
+  Downloads, Pictures, Videos & Music by default; add any folder by typing **`add folder`**.
 - **Calculator** — type `2+2*8`, `sqrt(144)`, `0xff+1`; Enter copies the result.
 - **Web search** — `g rust` → Google, plus `yt` / `w` / `gh`; or just type a URL.
 - **Windows Settings** — `bluetooth`, `display`, `wifi`, `startup apps`, … open the right page.
@@ -35,6 +36,9 @@ Built in native Rust (no Electron, no web runtime), so it stays tiny and instant
 Summon with **Ctrl+Space**. Change it any time — type `shortcut`, or right-click the tray
 icon → **Change shortcut…**, then press your new combo. Type to search; ↑/↓ to select;
 Enter to run; Esc to dismiss. Ordo lives in the tray — right-click for options and Quit.
+
+**Searching files in other folders?** Type **`add folder`** and pick one (or `add folder
+D:\Path` to add it directly). Ordo indexes it instantly and remembers it — no config editing.
 
 ## Privacy
 
