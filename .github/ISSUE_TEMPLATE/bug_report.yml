@@ -1,0 +1,45 @@
+name: 🐛 Bug report
+description: Something in Ordo isn't working right
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Ordo! Fill in what you can — even a one-line description helps.
+  - type: input
+    id: version
+    attributes:
+      label: Ordo version
+      description: "Shown in the tray tooltip / Settings (e.g. 0.2.2). Not sure? Leave blank."
+      placeholder: "0.2.2"
+    validations:
+      required: false
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 23H2 (or Windows 10)"
+    validations:
+      required: false
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, and what went wrong?
+      placeholder: "I typed '…' and Ordo …"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else? (screenshots, steps, log)
+      description: "The log is at %LOCALAPPDATA%\\Ordo\\ordo.log — right-click the tray icon → Open log folder. Paste any relevant lines."
+    validations:
+      required: false
