@@ -7,7 +7,7 @@ or run commands — all from one bar.
 Built in native Rust (no Electron, no web runtime), so it stays tiny and instant:
 ~2–4 MB idle RAM, 0% idle CPU, a ~1.5 MB binary, and results in well under a frame.
 
-### 🌐 Website & demo video → **[ordo-website-three.vercel.app](https://ordo-website-three.vercel.app)**
+### 🌐 Website & demo video → **[ordo-aayushsharat.vercel.app](https://ordo-aayushsharat.vercel.app)** · 📝 [Changelog](https://ordo-aayushsharat.vercel.app/changelog.html)
 
 ## Download
 
@@ -16,8 +16,22 @@ Built in native Rust (no Electron, no web runtime), so it stays tiny and instant
 - **Installer** (`OrdoSetup-x.y.z.exe`) — per-user, no admin needed. Recommended.
 - **Portable** (`Ordo-x.y.z-portable.zip`) — unzip and run `ordo.exe`.
 
-> **SmartScreen note:** Ordo isn't code-signed yet, so Windows may show *"Windows
-> protected your PC."* Click **More info → Run anyway**. (Code signing is planned.)
+### ⚠️ Windows blocks or deletes the download? (It's a false alarm)
+
+Ordo isn't **code-signed** yet, so Windows doesn't recognize the publisher and may treat
+it as suspicious. Ordo is **open, has no telemetry**, and its source of updates is pinned
+and SHA-256-verified — but Windows can't know that without a signature. Two things you
+might see:
+
+1. **SmartScreen** — *"Windows protected your PC."* Click **More info → Run anyway**.
+2. **Defender removes the file** (*"Threat found"*, file deleted/quarantined). This is a
+   **false positive**. To keep it:
+   - Open **Windows Security → Virus & threat protection → Protection history**.
+   - Find the Ordo item → **Actions → Allow / Restore**.
+   - Or before downloading, add the Ordo install folder to **exclusions**
+     (`%LOCALAPPDATA%\Programs\Ordo`).
+
+Code signing (which removes both warnings for good) is on the roadmap.
 
 ## Features
 
@@ -39,6 +53,12 @@ Enter to run; Esc to dismiss. Ordo lives in the tray — right-click for options
 
 **Searching files in other folders?** Type **`add folder`** and pick one (or `add folder
 D:\Path` to add it directly). Ordo indexes it instantly and remembers it — no config editing.
+
+## Changelog
+
+See **[CHANGELOG.md](CHANGELOG.md)** (or the [web version](https://ordo-aayushsharat.vercel.app/changelog.html))
+for what's new in each release. In-app, updates appear as an **"Update Ordo"** row when you
+summon it — press Enter to install.
 
 ## Privacy
 
