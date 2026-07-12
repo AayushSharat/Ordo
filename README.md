@@ -11,10 +11,10 @@ Built in native Rust (no Electron, no web runtime), so it stays tiny and instant
 
 ## Download
 
-**[⬇ Download the latest version](https://github.com/AayushSharat/Ordo/releases/latest)**
+**[⬇ Download Ordo (installer)](https://github.com/AayushSharat/Ordo/releases/latest/download/OrdoSetup.exe)** — per-user, no admin needed. Recommended.
 
-- **Installer** (`OrdoSetup-x.y.z.exe`) — per-user, no admin needed. Recommended.
-- **Portable** (`Ordo-x.y.z-portable.zip`) — unzip and run `ordo.exe`.
+- **Portable:** [Ordo-portable.zip](https://github.com/AayushSharat/Ordo/releases/latest/download/Ordo-portable.zip) — unzip and run `ordo.exe`.
+- Or browse [all releases & files](https://github.com/AayushSharat/Ordo/releases/latest) (each release also ships a `SHA256SUMS` to verify your download).
 
 ### ⚠️ Windows blocks or deletes the download? (It's a false alarm)
 
