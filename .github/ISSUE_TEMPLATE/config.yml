@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📖 Changelog & releases
+    url: https://ordo-aayushsharat.vercel.app/changelog
+    about: See what's new and what's already been fixed before filing.
+  - name: 🌐 Ordo website
+    url: https://ordo-aayushsharat.vercel.app
+    about: Downloads, features, and the demo video.
