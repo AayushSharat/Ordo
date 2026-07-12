@@ -1,0 +1,24 @@
+name: 💡 Feature request / feedback
+description: Suggest an idea, an improvement, or share general feedback
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas and feedback are very welcome — this is how Ordo gets better.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Ordo to do?
+      description: Describe the feature, change, or feedback.
+      placeholder: "It would be great if Ordo could …"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why? What problem would it solve?
+      description: What are you trying to get done?
+    validations:
+      required: false
