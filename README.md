@@ -54,6 +54,14 @@ Enter to run; Esc to dismiss. Ordo lives in the tray — right-click for options
 **Searching files in other folders?** Type **`add folder`** and pick one (or `add folder
 D:\Path` to add it directly). Ordo indexes it instantly and remembers it — no config editing.
 
+## Feedback
+
+Found a bug or have an idea? Please open an issue — it genuinely shapes what gets built next:
+
+- 🐛 **[Report a bug](https://github.com/AayushSharat/Ordo/issues/new?template=bug_report.yml)**
+- 💡 **[Request a feature / share feedback](https://github.com/AayushSharat/Ordo/issues/new?template=feature_request.yml)**
+- Or browse [existing issues](https://github.com/AayushSharat/Ordo/issues).
+
 ## Changelog
 
 See **[CHANGELOG.md](CHANGELOG.md)** (or the [web version](https://ordo-aayushsharat.vercel.app/changelog.html))
