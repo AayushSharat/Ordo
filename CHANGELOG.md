@@ -4,6 +4,13 @@ All notable changes to Ordo. Updates install themselves — summon Ordo and pres
 **Enter** on the "Update Ordo" row. Also on the web:
 [ordo-aayushsharat.vercel.app/changelog.html](https://ordo-aayushsharat.vercel.app/changelog.html).
 
+## [0.2.3] — 2026-07-14
+
+- **Fixed:** **The tray icon now reliably appears when Ordo starts with Windows.** If Ordo
+  launched before the taskbar was ready at sign-in, its tray icon could go missing — so it
+  looked like Ordo hadn't started, even though the hotkey still worked. Ordo now re-adds its
+  icon as soon as the taskbar is ready, and again if Explorer restarts.
+
 ## [0.2.2] — 2026-07-12
 
 - **Fixed:** **Updates now reach you automatically.** Ordo re-checks for new versions
@@ -38,6 +45,7 @@ All notable changes to Ordo. Updates install themselves — summon Ordo and pres
     and consent-based, SHA-256-verified auto-update.
   - Native Rust — ~3 MB idle RAM, 0% idle CPU, a ~1.5 MB binary, no telemetry.
 
+[0.2.3]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.3
 [0.2.2]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.2
 [0.2.1]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.1
 [0.2.0]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.0
