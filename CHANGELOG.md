@@ -4,6 +4,17 @@ All notable changes to Ordo. Updates install themselves — summon Ordo and pres
 **Enter** on the "Update Ordo" row. Also on the web:
 [ordo-aayushsharat.vercel.app/changelog.html](https://ordo-aayushsharat.vercel.app/changelog.html).
 
+## [0.2.4] — 2026-07-17
+
+- **Fixed:** **Newly installed apps show up without restarting Ordo.** Ordo now re-scans
+  your installed apps each time you summon it (and periodically in the background), so an
+  app you just installed appears within seconds instead of sometimes not showing up until
+  you restarted Ordo.
+- **Fixed:** **Updating no longer forgets your most-used apps and added folders.** After the
+  earlier rename, updating across it could land you in fresh, empty data — so Ordo appeared
+  to forget your history and the folders you'd added to search. Ordo now carries that data
+  forward automatically on first launch (your old data is left in place as a backup).
+
 ## [0.2.3] — 2026-07-14
 
 - **Fixed:** **The tray icon now reliably appears when Ordo starts with Windows.** If Ordo
@@ -45,6 +56,7 @@ All notable changes to Ordo. Updates install themselves — summon Ordo and pres
     and consent-based, SHA-256-verified auto-update.
   - Native Rust — ~3 MB idle RAM, 0% idle CPU, a ~1.5 MB binary, no telemetry.
 
+[0.2.4]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.4
 [0.2.3]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.3
 [0.2.2]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.2
 [0.2.1]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.1
