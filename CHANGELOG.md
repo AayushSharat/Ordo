@@ -4,6 +4,19 @@ All notable changes to Ordo. Updates install themselves — summon Ordo and pres
 **Enter** on the "Update Ordo" row. Also on the web:
 [ordo-aayushsharat.vercel.app/changelog.html](https://ordo-aayushsharat.vercel.app/changelog.html).
 
+## [0.2.6] — 2026-07-22
+
+- **New:** **Pin your favorite apps, folders, and files.** Highlight any result and press
+  **Ctrl+P** to pin it (press again to unpin), or type `pin <name>` / `unpin <name>`. Pinned
+  items stay at the top when you summon Ordo, above your most-used list, and never fade out.
+- **New:** **Reset your most-used history.** Type `reset recents` (or `clear history`) and press
+  Enter to clear the most-used list. Your pinned items are kept.
+- **Fixed:** **Installing an update no longer needs you to quit Ordo first.** An available update
+  now applies on its own — Ordo closes itself gracefully, the update installs, and Ordo relaunches,
+  with no manual Quit from the tray.
+- **Improved:** **Lower CPU while the search bar is open.** Ordo no longer repeats text-layout work
+  on every repaint, so an open Ordo sits at ~0% CPU.
+
 ## [0.2.4] — 2026-07-17
 
 - **Fixed:** **Newly installed apps show up without restarting Ordo.** Ordo now re-scans
