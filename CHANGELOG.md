@@ -4,6 +4,18 @@ All notable changes to Ordo. Updates install themselves — summon Ordo and pres
 **Enter** on the "Update Ordo" row. Also on the web:
 [ordo-aayushsharat.vercel.app/changelog.html](https://ordo-aayushsharat.vercel.app/changelog.html).
 
+## [0.2.8] — 2026-08-06
+
+- **New:** **Keep the screen awake while Ordo runs.** Type `screen awake` and Ordo offers one
+  inverse action: turn it on when it is off, or turn it off when it is on. It uses a temporary
+  Windows execution-state request and does not change your power-plan settings.
+- **New:** **Create and edit `.env` files quickly.** Type `create .env` to choose a folder and
+  create an empty file, or use `open .env` / `edit .env` to open an existing file in Notepad and
+  save it normally.
+- **Improved:** **Typing stays within the keystroke performance budget.** Preference matching
+  reuses the query's lowercase key, and input echo is coalesced so normal fast searches avoid
+  redundant full-scene paints.
+
 ## [0.2.7] — 2026-08-05
 
 - **Fixed:** **Up and Down now recall your recent searches.** Ordo keeps session-local search
@@ -82,6 +94,7 @@ All notable changes to Ordo. Updates install themselves — summon Ordo and pres
   - Native Rust — ~3 MB idle RAM, 0% idle CPU, a ~1.5 MB binary, no telemetry.
 
 [0.2.7]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.7
+[0.2.8]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.8
 [0.2.4]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.4
 [0.2.3]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.3
 [0.2.2]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.2
