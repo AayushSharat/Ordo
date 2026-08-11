@@ -7,6 +7,8 @@ or run commands — all from one bar.
 Built in native Rust (no Electron, no web runtime), so it stays tiny and instant:
 ~2–4 MB idle RAM, 0% idle CPU, a ~1.5 MB binary, and results in well under a frame.
 
+**Latest release: 0.2.9** — fullscreen suppression and tighter plugin response deadlines.
+
 ### 🌐 Website & demo video → **[ordo-aayushsharat.vercel.app](https://ordo-aayushsharat.vercel.app)** · 📝 [Changelog](https://ordo-aayushsharat.vercel.app/changelog.html)
 
 ## Download
@@ -19,7 +21,7 @@ Built in native Rust (no Electron, no web runtime), so it stays tiny and instant
 ### ⚠️ Windows blocks or deletes the download? (It's a false alarm)
 
 Ordo isn't **code-signed** yet, so Windows doesn't recognize the publisher and may treat
-it as suspicious. Ordo is **open, has no telemetry**, and its source of updates is pinned
+it as suspicious. Ordo is **closed-source, has no telemetry**, and its source of updates is pinned
 and SHA-256-verified — but Windows can't know that without a signature. Two things you
 might see:
 
@@ -42,6 +44,7 @@ Code signing (which removes both warnings for good) is on the roadmap.
 - **Web search** — `g rust` → Google, plus `yt` / `w` / `gh`; or just type a URL.
 - **Windows Settings** — `bluetooth`, `display`, `wifi`, `startup apps`, … open the right page.
 - **Commands** — `sleep`, `lock`, `shutdown`, `restart`, `kill <app>`, `em <emoji>` (out-of-process plugins).
+- **Fullscreen-aware** — type `fullscreen` to toggle whether Ordo stays hidden over games and presentations.
 - **Most-used** — an empty summon shows the apps and folders you use most.
 - **Light / dark** — follows your Windows theme, live.
 
@@ -76,5 +79,5 @@ your machine.
 
 ## License
 
-Ordo is free to use. © 2026 Aayush Sharat. All rights reserved. A formal freeware license
-will accompany a future release.
+Ordo is free to use under the included freeware license. © 2026 Aayush Sharat. All rights reserved.
+See [LICENSE.txt](LICENSE.txt) for the complete terms.

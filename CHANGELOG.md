@@ -4,6 +4,12 @@ All notable changes to Ordo. Updates install themselves — summon Ordo and pres
 **Enter** on the "Update Ordo" row. Also on the web:
 [ordo-aayushsharat.vercel.app/changelog.html](https://ordo-aayushsharat.vercel.app/changelog.html).
 
+## [0.2.9] — 2026-08-11
+
+- **New:** **Fullscreen suppression toggle.** Type `fullscreen` and press Enter to switch whether Ordo stays hidden over exclusive fullscreen apps, presentations, and borderless fullscreen windows. The setting defaults on and persists in your config.
+- **Improved:** **Plugin response deadlines now include cold process startup.** Slow plugins fall back to an asynchronous pending row within the 150 ms response budget instead of extending the search wait during launch.
+- **Verified:** Full provider regression, hostile-plugin abuse tests, installer checks, and performance/resource validation passed before release.
+
 ## [0.2.8] — 2026-08-06
 
 - **New:** **Keep the screen awake while Ordo runs.** Type `screen awake` and Ordo offers one
@@ -94,6 +100,7 @@ All notable changes to Ordo. Updates install themselves — summon Ordo and pres
   - Native Rust — ~3 MB idle RAM, 0% idle CPU, a ~1.5 MB binary, no telemetry.
 
 [0.2.7]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.7
+[0.2.9]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.9
 [0.2.8]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.8
 [0.2.4]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.4
 [0.2.3]: https://github.com/AayushSharat/Ordo/releases/tag/v0.2.3
